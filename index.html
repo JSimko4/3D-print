@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+    <title>3D tlač</title>
+  </head>
+  <script src="JS/three.r95.min.js"></script>
+  <script src="JS/vanta.rings.min.js"></script>
+
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container fluid">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#animacia">Domov</a>
+                        </li>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#MINULOST">Minulosť</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#PRITOMNOST">Prítomnosť</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#BUDUCNOST">Budúcnosť</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#video_sekcia">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#TEAM">Náš tím</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="animacia" style="height: 100vh;">
+            <div class="uvodny_div">
+                <h1 class="nadpis">3D TLAČ</h1>
+                <p>Projekt na ZPS - TEAM 6</p>
+                <button id="butt" type="button" class="btn btn-outline-light btn-lg" onclick="window.location.href='#butt'">Prejsť na úvod</button>
+            </div>
+        </div>
+        
+        <div style="padding-top: 7vh;" class="container-fluid">
+            <div class="sekcia">
+                <div class="col-12">
+                    <h2 class="display-4">Čo dokáže 3D tlač?</h2>
+                    <hr class="my-3" style="max-width:50vw;">
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-sm-12 col-12 col-md-12 col-lg-6">
+                        <p class="lead">Názvom 3D tlačiareň sa dá označiť už veľa zariadení, ktoré sa líšia veľkosťou, účelom, technikou (FDM, SLA, laser sinterting) a materiálom, ktorý používajú, ale všetky fungujú na princípe vrstvenia. 3D tlačenie sa dá predstaviť ako 2D tlačenie, spravené veľa krát po sebe, lebo v princípe tomu tak aj je, keďže tlačiareň objekt formuje po vrstvách. V technológiách 3D tlače boli od jej vzniku spravené veľké pokroky, od protéz a raketových motorov po čiastočne funkčné orgány, toho čo sa dá vytlačiť je už dnes nespočetne veľa. 3D tlač má veľmi veľký potenciál, dokáže ušetriť miliardy hodín práce a zachrániť nespočetne veľa ľudských životov, je len na nás aby sme túto technológiu posúvali vpred.</p>
+                    </div>
+                    <div class="col"></div>
+                  </div>
+            </div>
+        </div>
+
+
+
+        <div id="MINULOST" class="sekcia" style="padding-top: 10vh;">
+            <img class="design_photo design1" src="FOTKY/design1.png" alt="design_photo">
+            <div class="row" style="padding-top: 10vh;">
+                <div class="col-lg-1 col-md-0 col-sm-0 col-0"></div>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                    <h1 class="nadpis_sekcia" style="text-align: center;">Minulosť</h1>
+                    <p class="textVsekcii">Koncept 3D tlače bol predstavený už v 70. rokoch 20. storočia, no prvé experimenty môžeme pozorovať už od roku 1981. Prvé pokusy o 3D tlač sa udeľujú <a href="https://all3dp.com/2/history-of-3d-printing-when-was-3d-printing-invented/">Dr. Kodamovi</a> za vývoj techniky rýchleho prototypovania. Bol prvým, ktorý opísal postup výroby po vrstvách, čím vytvoril <a href="https://www.sculpteo.com/en/glossary/stereolithography-definition/">SLA</a> (stereolitografiu). <a href="https://www.3dsystems.com/our-story">Charles Hull</a> sa taktiež zaujímal aj o túto technológiu a v roku 1986 predložil prvý patent na stereolitografiu. Založil spoločnosť <a href="https://www.3dsystems.com/">3D Systems Corporation</a> a v roku 1988 vydal prvý komerčný produkt SLA-1.</p>
+                    <p class="textVsekcii">Čo vieme ďalej o <a href="https://www.livescience.com/38862-selective-laser-sintering.html">SLS</a> (Selective Laser Sintering) a <a href="https://www.livescience.com/39810-fused-deposition-modeling.html">FDM</a> (Fused Deposition Modeling)? V roku 1988, na univerzite v Texase, <a href="https://3dprintingindustry.com/news/carl-deckard-the-inventor-of-sls-passes-away-166853/">Carl Deckard</a> vynašiel technológiu SLS, pri ktorej sa zrná prášku spájajú lokálne pomocou lasera. Medzitým <a href=" https://en.wikipedia.org/wiki/S._Scott_Crump">Scott Crump</a> , spoluzakladateľ spoločnosti <a href="https://www.stratasys.com/">Stratasys Inc.</a> podal patent na model fúzovaného ukladania (FDM). Za menej ako desať rokov boli tieto tri patentované technológie spojené a tým sa zrodila 3D tlač. <a href="https://all3dp.com/2/history-of-3d-printing-when-was-3d-printing-invented/?fbclid=IwAR3ZY5uhfYHneM4VPyKBm-tBu0_3orrkLyXyDX_Ic1pw4MlTC8qgmM1rcJo" style="font-size: 15px;">[1]</a></p>
+                </div>
+                <div class="col-lg-1 col-md-0 col-sm-0 col-0"></div>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="fotka" src="FOTKY/minulost.png" alt="3D tlac v minulosti">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="fotka" src="FOTKY/history2.gif" alt="3D tlac v minulosti">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <img class="design_photo design2" src="FOTKY/design3.png" alt="design_photo">
+
+        <div id="PRITOMNOST" class="sekcia" style="padding-top: 20vh;">
+            <div class="row">
+                <div class="col-lg-1 col-md-0 col-sm-0 col-0"></div>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                    <h1 class="nadpis_sekcia" style="text-align: center;">Prítomnosť</h1>
+                    <p class="textVsekcii">V posledných rokoch sa dal sledovať trend veľkého nárastu využitia 3D tlače, najmä aj rôznorodosti jej použitia. V dnešnom svete nájdeme využitie 3D tlače v oblastiach ako priemysel, medicína, umenie a dizajn, no veľa ďalších oblastí sa začína rozrastať vďaka možnostiam, ktoré 3D tlač poskytuje. 3D tlač je momentálne jeden z globálnych trendov. Tomu tak vždy nebolo, hoci už vopred sa dal predpovedať obrovský potenciál tejto technológie. Aplikácia 3D tlače bola problémová v oblastiach ako priemysel najmä kvôli jej cene v porovnaní so štandardnými procesmi výroby, ale vďaka technologickým inováciám, táto technológia začala byť časom prístupnejšia pre výrobcov. Prvý nárast použitia začal na začiatku 21. storočia, no za najväčší prelom by sa dal považovať rok 2011, kedy z roka na rok stúpla hodnota trhu 3D tlače až o 29% odkedy aj rapídne stúpala. McKinsey & Company dokonca predpovedala, že do roku 2025 nadobudne trh 3D tlače hodnotu 550 miliárd dolárov. <a href="https://www.aireplastics.com/present-future-3d-printing/?fbclid=IwAR1xLiorGni_k3BQ9B0YNapM4VkuqnfBgLvx9QxPJaW9VIRg2xyzeollhV0" style="font-size: 15px;">[2]</a></p>
+                </div>
+                <div class="col-lg-1 col-md-0 col-sm-0 col-0"></div>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3500">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="fotka" src="FOTKY/yoda.png" alt="3D tlac v pritomnosti">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="fotka" src="FOTKY/filamen.png" alt="3D tlac v pritomnosti">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <img class="design_photo" style=" width: 25vw; right:38vw;" src="FOTKY/design5.png" alt="design_photo">
+
+        <div id="BUDUCNOST" class="sekcia" style="padding-top: 20vh;">
+            <div class="row">
+                <div class="col-lg-1 col-md-0 col-sm-0 col-0"></div>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                    <h1 class="nadpis_sekcia" style="text-align: center;">Budúcnosť</h1>
+                    <p class="textVsekcii">3D tlač má nepopierateľný potenciál stať sa jednou z najdôležitejších technológií ľudstva. V budúcnosti by sa táto technológia mohla stať dôležitou súčasťou mnohých odvetví ako zdravotníctvo, výroba rôznych tovarov a dokonca aj skúmanie vesmíru. Už dnes sa totižto experimentuje z tlačením vecí, ktoré môžu pre niekoho znieť ako vytrhnuté z sci-fi. Ako príklad môžeme uviesť napríklad tlač plne funkčných orgánov z bio hmoty alebo aj tlač príbytkov pre astronautov na Marse. </p>
+                    <p class="textVsekcii"> Jednou dôležitou oblasťou pre 3D tlač už v blízkej budúcnosti je stavba budov. Už dnes prebehlo viacero úspešných testov a je veľký predpoklad, že 3D tlač je kvalitnejšia, rýchlejšia a dokonca aj lacnejšia než konvenčné spôsoby stavby používané dnes.</p>
+                    <p class="textVsekcii">3D tlač je skúmaná aj ako technológia, ktorá môže pomôcť s nedostatkovou a nekvalitnou stravou. Predstavte si, že si v obchode namiesto hotových potravín nakúpite len náplne obsahujúce biologické hmoty ako rôzne oleje a prášky a doma si „vytlačíte“ nutrične plnohodnotné jedlo podľa výberu. <a href="https://all3dp.com/2/future-of-3d-printing-a-glimpse-at-next-generation-making/?fbclid=IwAR1PytfHhmFAb7lujXjKQhtEkDTrVXwYznpmzJsh7yi_21gtI2HdwTPtdk8" style="font-size: 15px;">[3]</a></p>
+                </div>
+                <div class="col-lg-1 col-md-0 col-sm-0 col-0"></div>
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="4000">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="fotka" src="FOTKY/srdce.jpg" alt="3D tlac v buducnosti">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="fotka" src="FOTKY/srdce2.png" alt="3D tlac v buducnosti">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="fotka" src="FOTKY/mars.png" alt="3D tlac v buducnosti">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="video_sekcia" style="padding-top: 18vh; padding-bottom: 15vh; text-align: center;">
+            <h2>VIDEO</h2>
+            <video class="video_border" controls>
+                <source src="VIDEO/VIDEO_3DTlac.mp4" type="video/mp4">
+                Váš prehliadač nepodporuje prehrávanie videí.
+                </video>
+        </div>
+
+
+        <img class="design_photo design3" src="FOTKY/design4.png" alt="design_photo">
+        <div id="TEAM" class="container" style="text-align: center; padding-top: 15vh !important;">
+            <div class="col-12">
+                <h2>TEAM</h2>
+                <hr class="my-1" style="max-width:35vw;">
+            </div>
+
+            <div class="nas_tym">
+                <div id="teammate" class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div><h3 class="center">Jakub Šimko</h3></div>
+                    <div><img class="fotka_kruh" src="FOTKY/fotka.jpg" alt="fotka_JS"></div>
+                    <p class="text_pod_foto">Web developer</p>
+                </div>
+                <div id="teammate" class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div><h3 class="center">Štefan Rapčo</h3></div>
+                    <div><img class="fotka_kruh" src="FOTKY/stefan.png" alt="fotka_JS"></div>
+                    <p class="text_pod_foto">CEO a server administrácia</p>        
+                </div>
+                <div id="teammate" class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div><h3 class="center">Samuel Škultéty</h3></div>
+                    <div><img class="fotka_kruh" src="FOTKY/samo.jpg" alt="fotka_JS"></div>
+                    <p class="text_pod_foto">Scénar videa a obsah stránky</p>            
+                </div>
+                <div id="teammate" class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <div><h3 class="center">Amir Saade</h3></div>
+                    <div><img class="fotka_kruh" src="FOTKY/amir.jpg" alt="fotka_JS"></div>
+                    <p class="text_pod_foto">Režisér a editovanie videa</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row">
+                <div class="col-sm">
+                    <img style="height:100px;" src="FOTKY/fiit.png" alt="logo fiit">
+                </div>
+                <div class="col-sm">
+                    <h4 style="color:black;">Created by Greybeards™</h4>
+                </div>
+                <div class="col-sm">
+                    <img style="height:100px;" src="FOTKY/fiit.png" alt="logo fiit">
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="JS/funkcie.js"></script>
+    <script>console.clear()</script>
+</body>
+</html>
